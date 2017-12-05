@@ -1,0 +1,72 @@
+/*Creando estilos a nuestro documento*/
+body {
+  background-image: url("../images/biciazul.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+/*Posicionando fijo al nav*/
+.barra {
+  position: fixed;
+  top: 0px;
+  padding: 0;
+  background: #6AD2F3;
+  width: 100%;
+}
+.barra > h1 {
+  color: #fff;
+  text-align: center;
+}
+/*Contenedor de bienvenida*/
+.container-static {
+  background: #fff;
+  width: 40%;
+  height: 200px;
+  float: left;
+  margin-top: 8%;
+  margin-left: 15%;
+}
+.container-static > p {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.linea-container {
+  padding: 0;
+  margin: 0;
+  border: solid 2px;
+  color: #ccc;
+}
+.titulo {
+  color: #6AD2F3;
+  font-weight: bold;
+  margin-left: 5%;
+}
+/*Estilos para TextArea*/
+.container-text {
+  float:right;
+  margin-right: 15%;
+  margin-top: 8%;
+  padding: 20px;
+  background: #fff;
+}
+/*Definiendo estilos usando los ID*/
+#cont-tweet {
+  width: 70%;
+  height: 10%;
+  float: left;
+  display: block;
+  margin-top: 15px;
+  margin-left: 15%;
+}
+/*Definir fondo para cada tweet del usuario, de esta forma apareceran separados*/
+.block-tweet{
+  margin: 20px 0;
+  background: #fff;
+  padding: 20px;
+}
+#clicker {
+  background: #6AD2F3;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
